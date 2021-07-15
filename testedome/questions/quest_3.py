@@ -41,3 +41,33 @@ if __name__ == "__main__":
     print(movingtotal.contains(9))
     print(movingtotal.contains(12))
     print(movingtotal.contains(7))
+
+    """
+    A [a1, a2, a3...]    
+    B    ...
+    C    ...
+    D    ...
+    E    ...
+    
+    def a (elemento):
+        index = A.index(elemento)
+        return B[index]
+        
+    
+    elementos = [
+     {
+        "nome": "joao",
+        "cidade": "recife",
+    },    
+    {
+        "nome": "jose",
+        "cidade": "caruaru",
+    }, 
+    ...
+    ]
+    
+    def retorna_atributo(atributo):
+        for elemento in elementos:
+            print(elemento[atributo])
+    
+    """
